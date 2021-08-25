@@ -12,3 +12,7 @@ const PORT = process.env.PORT
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.use(express.json());
+
+//successfully connected to port
+app.listen(PORT, () => 
+console.log(`App listening on PORT http://localhost:${PORT}`));
