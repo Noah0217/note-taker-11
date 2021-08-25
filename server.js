@@ -15,4 +15,4 @@ app.use(express.json());
 
 //successfully connected to port
 app.listen(PORT, () => 
-console.log(`App listening on PORT http://localhost:${PORT}`));
+console.log(`successfully connected http://localhost:${PORT}`));
