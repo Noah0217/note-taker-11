@@ -1,12 +1,12 @@
 //dependencies
-const express = require("express");
-const fs = require("fs");
-const path = require("path");
-const notes = require("./Develop/db/db.json");
+const express = require('express');
+const fs = require('fs');
+const path = require('path');
+const notes = require('./db/db.json'); 
 
 //path
-const mainPath = path.join(__dirname, "./Develop/public")
-const db = path.join(__dirname, "./Develop/db/db/json")
+const mainPath = path.join(__dirname, './public') 
+const db = path.join(__dirname, "./db") 
 
 //server dependencies & port to live server
 const app = express();
@@ -18,16 +18,16 @@ app.use(express.static('public'));
 app.use(express.json());
 
 //route to html notes
-app.get("/notes", function(req, res) {
-    res.sendFile(path.join(mainPath, "notes.html"));
+app.get('/notes', function(req, res) {
+    res.sendFile(path.join(mainPath, 'notes.html'));
 });
 
-app.get("/api/notes", function(req, res) {
-    res.sendFile(path.join(db, "db.json"))
+app.get('/api/notes', function(req, res) {
+    res.sendFile(path.join(db, 'db.json'))
     return res.body
 })
 app.get("*", function(req, res) {
-    res.sendFile(path.join(mainPath, "index.html"));
+    res.sendFile(path.join(mainPath, 'index.html'));
 });
 
 //successfully connected to port
