@@ -6,6 +6,7 @@ const notes = require("./Develop/db/db.json");
 
 //path
 const mainPath = path.join(__dirname, "./Develop/public")
+const db = path.join(__dirname, "./Develop/db/db/json")
 
 //server dependencies & port to live server
 const app = express();
