@@ -25,7 +25,12 @@ app.get('/notes', function(req, res) {
 app.get('/api/notes', function(req, res) {
     res.sendFile(path.join(db, 'db.json'))
     return res.body
-})
+});
+app.post('/api/notes', function(req, res) {
+    console.log("post route hit")
+    res.sendFile(path.join(db, 'db.json'))
+    return res.body
+});
 app.get("*", function(req, res) {
     res.sendFile(path.join(mainPath, 'index.html'));
 });
