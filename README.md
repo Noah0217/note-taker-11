@@ -5,8 +5,10 @@
 
 - VS Code
 - Git Bash Terminal
+- Heroku
 - JavaScript
 - Node.Js
+- Express.Js
 
   <h3 align="left">Installation</h3>
 - To run app use node app.js in terminal.
