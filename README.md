@@ -18,4 +18,4 @@
 - To run server do node server.js and got the port link.
 
 <h2>Preview<h2>
-  <img src="https://raw.githubusercontent.com/Noah0217/team-roles-10/main/Assets/images/week%2010%20challenge%20complete%20image.png" width="1600" height="450"/>
+  <img src="https://raw.githubusercontent.com/Noah0217/note-taker-11/main/Assets/note-taker.png" width="1176" height="426"/>
