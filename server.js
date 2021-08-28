@@ -21,7 +21,6 @@ app.use(express.json());
 app.get('/notes', function(req, res) {
     res.sendFile(path.join(mainPath, 'notes.html'));
 });
-
 app.get('/api/notes', function(req, res) {
     res.sendFile(path.join(db, 'db.json'))
     return res.body
