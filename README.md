@@ -16,7 +16,7 @@
   <h3 align="left">Installation</h3>
 - To run server do node server.js and got the port link.
 
-<h2>Preview<h2>
+<h2>Demo<h2>
   
 https://user-images.githubusercontent.com/84366215/131230771-440025a5-a3b5-4c7d-bfab-cbc5264cf2f4.mp4
 
