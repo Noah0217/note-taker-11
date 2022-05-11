@@ -14,7 +14,7 @@
 - Express.Js
 
   <h3 align="left">Installation</h3>
-- To run server enter node.js in the terminal and follow the link to the page. 
+- To run server enter `node.js` in the terminal and follow the link to the page. 
 
 <h2>Demo<h2>
   
