@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Note Taker
 
 <h2>Description<br><h4>A server based application used to take notes, and have them saved and ready to use when ever needed
